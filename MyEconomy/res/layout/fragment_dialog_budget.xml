@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewDialogUtgifter"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dialog_budget_textViewSpinnerlbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/dialog_budget_textViewSpinner" />
+
+        <Spinner
+            android:id="@+id/dialog_budget_SpinnerCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/dialog_budget_textViewTitlelbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/dialog_budget_textViewTitle"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/dialog_budget_textViewTitleInput"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="@string/dialog_budget_titleInputHint"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/dialog_budget_textViewBelopplbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/dialog_budget_textViewBelopp" />
+
+        <EditText
+            android:id="@+id/dialog_budget_textViewBeloppInput"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:ems="10"
+            android:hint="@string/dialog_budget_beloppHint"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/dialog_budget_btnCamera"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_budget_btnCamera" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">AndroidP2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="preference_file_key">P2</string>
+    <!-- /App -->
+
+
+    <!-- Menu -->
+    <string name="server_connect">Connect</string>
+    <string name="server_disconnect">Disconnect</string>
+    <string name="user_register">Register</string>
+    <string name="user_unregister">Unregister</string>
+    <!-- /Menu -->
+
+
+    <!-- User Settings -->
+    <string name="user_name">name</string>
+    <string name="user_group">group</string>
+    <string name="user_id">id</string>
+
+    <!-- User Default values -->
+    <string name="user_default_name">SonyXperia</string>
+    <string name="user_default_group">Piratpartiet</string>
+
+    <!-- Saved variables -->
+    <string name="user_registered">false</string>
+
+    <!-- Dialog Register -->
+    <string name="dialog_title">Register</string>
+    
+    <!-- Labels -->
+    <string name="dialog_spinner_groups_lbl">Available groups</string>
+    <string name="dialog_user_name_lbl">Username</string>
+    <string name="dialog_user_group_lbl">New Group</string>
+
+    <!-- Elements/Hints -->
+    <string name="dialog_user_name">username</string>
+    <string name="dialog_user_group">group</string>
+
+</resources>

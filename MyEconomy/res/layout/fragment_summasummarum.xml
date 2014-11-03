@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/summa_summarum_textViewName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/summa_summarum_user_name" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/summa_summarum_textViewIncome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summa_summarum_textViewName"
+        android:layout_marginTop="10dip"
+        android:text="@string/summa_summarum_total_income"
+        android:textColor="#00C000" />
+
+    <TextView
+        android:id="@+id/summa_summarum_textViewExpense"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summa_summarum_textViewIncome"
+        android:layout_marginTop="2dip"
+        android:text="@string/summa_summarum_total_expense"
+              android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/summa_summarum_textViewBudget"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summa_summarum_textViewExpense"
+        android:layout_marginTop="2dip"
+        android:text="@string/summa_summarum_budget" />
+    
+     <TextView
+        android:id="@+id/summa_summarum_textViewBudgetGoal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summa_summarum_textViewBudget"
+        android:layout_marginTop="1dip"
+        android:text="@string/summa_summarum_budgetGoal" />
+
+    <TextView
+        android:id="@+id/summa_summarum_textViewBudgetStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summa_summarum_textViewBudgetGoal"
+        android:layout_marginTop="1dp"
+        android:text="@string/summa_summarum_budget_status" />
+
+    <RelativeLayout
+        android:id="@+id/summa_summarum_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/summa_summarum_textViewBudgetStatus" />
+
+</RelativeLayout>

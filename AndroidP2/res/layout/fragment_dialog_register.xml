@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewDialogUtgifter"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dialog_register_textViewSpinnerlbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/dialog_spinner_groups_lbl" />
+
+        <Spinner
+            android:id="@+id/dialog_register_SpinnerGroups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/dialog_register_textViewUserNamelbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/dialog_user_name_lbl" />
+
+        <EditText
+            android:id="@+id/dialog_register_textViewUserName"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="@string/dialog_user_name"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/dialog_register_textViewGrouplbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/dialog_user_group_lbl" 
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/dialog_register_textViewUserGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="@string/dialog_user_group"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

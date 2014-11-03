@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Strings -->
+    <string name="app_name">MyEconomy</string>
+
+    <!-- ActionBar -->
+    <string name="action_settings">Settings</string>
+    <string name="action_add_budget">Add Budget</string>
+
+    <!-- ContextMenu -->
+    <string name="context_menu_edit">Edit Transaction</string>
+    <string name="context_menu_delete">Delete Transaction</string>
+
+    <!-- Fragment Title -->
+    <string name="title_section1">Summa Summarum</string>
+    <string name="title_section2">Income</string>
+    <string name="title_section3">Expense</string>
+    <string name="title_section_error">Error</string>
+
+    <!-- Fragment SummaSummarum -->
+    <string name="summa_summarum_user_name">Name: </string>
+    <string name="summa_summarum_total_income">Income:</string>
+    <string name="summa_summarum_total_expense">Expense:</string>
+    <string name="summa_summarum_budget">Budget:</string>
+    <string name="summa_summarum_budgetGoal">Budget Goal:</string>
+    <string name="summa_summarum_budget_status">Budget status:</string>
+
+    <!-- FragmentIncome -->
+    <string name="action_addIncome">addIncome</string>
+
+    <!-- FragmentExpense -->
+    <string name="action_addExpense">addExpense</string>
+
+    <!-- Dialog Budget -->
+    <string name="dialog_budget_textViewSpinner">Category:</string>
+    <string name="dialog_budget_textViewTitle">Titel:</string>
+    <string name="dialog_budget_textViewBelopp">Amount:</string>
+    <string name="dialog_budget_beloppHint">amount</string>
+    <string name="dialog_budget_titleInputHint">titelt</string>
+    <string name="dialog_budget_btnCamera">Take Picture</string>
+
+    <!-- Dialog AddBudget -->
+    <string name="dialog_add_budget_textViewTitle">Add Budget:</string>
+    <string name="dialog_add_budget_editTextBudgetHint">budget</string>
+
+    <!-- Dialog Login -->
+    <string name="dialog_login_editTextUserNameHint">your first name</string>
+    <string name="dialog_login_editTextLastNameHint">your last name</string>
+    <string name="dialog_login_editTextUserIDHint">ssnbr</string>
+    <string name="dialog_login_editTextPasswordHint">password</string>
+    <string name="dialog_login_textViewConfirm">You are about to logout!</string>
+
+    <!-- row -->
+    <string name="list_row_imageViewThumbnail">Thumbnail</string>
+    <string name="list_row_imageViewArrow">Arrow</string>
+    <string name="list_row_textViewTitle">Category</string>
+    <string name="list_row_textViewText">Text</string>
+    <string name="list_row_textViewDate">Date</string>
+    <string name="list_row_textViewAmmount">Amount</string>
+    <string name="list_row_textViewSEK">SEK</string>
+
+</resources>

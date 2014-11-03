@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menuGroup_connection_state" >
+
+        <item android:id="@+id/server_connect"
+              android:title="@string/server_connect"
+              android:showAsAction="never"/>
+
+        <item android:id="@+id/server_disconnect"
+              android:title="@string/server_disconnect"
+              android:showAsAction="never"/>
+    </group>
+
+    <group android:id="@+id/menuGroup_user" >
+
+        <item android:id="@+id/user_register"
+              android:title="@string/user_register"
+              android:showAsAction="ifRoom"/>
+
+        <item android:id="@+id/user_unregister"
+              android:title="@string/user_unregister"
+              android:showAsAction="ifRoom"/>
+    </group>
+
+</menu>

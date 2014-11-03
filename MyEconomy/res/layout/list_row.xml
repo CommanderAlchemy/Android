@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="4dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/list_row_imageViewThumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/image_bg"
+        android:padding="2dip" >
+
+        <ImageView
+            android:id="@+id/list_row_list_image"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:contentDescription="@string/list_row_imageViewThumbnail"
+            android:src="@drawable/image_bg" />
+    </LinearLayout>
+
+    <!-- Title -->
+
+    <TextView
+        android:id="@+id/list_row_textViewCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/list_row_imageViewThumbnail"
+        android:layout_toRightOf="@+id/list_row_imageViewThumbnail"
+        android:text="@string/list_row_textViewTitle"
+        android:textColor="#040404"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Text -->
+
+    <TextView
+        android:id="@+id/list_row_textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_row_textViewCategory"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/list_row_imageViewThumbnail"
+        android:paddingLeft="10dip"
+        android:text="@string/list_row_textViewText"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+
+    <!-- Date -->
+
+    <TextView
+        android:id="@+id/list_row_textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/list_row_textViewCategory"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:text="@string/list_row_textViewDate"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!-- Rightend Arrow -->
+
+    <ImageView
+        android:id="@+id/list_row_imageViewArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/list_row_imageViewArrow"
+        android:src="@drawable/navigation_next_item" />
+
+    <!-- Belopp -->
+
+    <TextView
+        android:id="@+id/list_row_textViewSek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/list_row_imageViewArrow"
+        android:gravity="left"
+        android:paddingRight="15dip"
+        android:text="@string/list_row_textViewSEK"
+        android:textColor="#00C000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/list_row_textViewAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+        android:layout_toLeftOf="@+id/list_row_textViewSek"
+        android:gravity="left"
+        android:text="@string/list_row_textViewAmmount"
+        android:textColor="#00C000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

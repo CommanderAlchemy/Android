@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_addIncome"
+          android:icon="@drawable/action_add_income"
+          android:title="@string/action_addIncome"
+          android:showAsAction="ifRoom" />
+</menu>

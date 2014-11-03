@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/dialog_login_editTextUserFirstNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dialog_login_editTextUserNameHint"
+        android:inputType="textPersonName"
+        android:padding="10dip"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/dialog_login_editTextUserLastNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:ems="10"
+        android:hint="@string/dialog_login_editTextLastNameHint"
+        android:inputType="textPersonName"
+        android:padding="10dip"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/dialog_login_editTextUserIDInput"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:hint="@string/dialog_login_editTextUserIDHint"
+        android:inputType="numberPassword"
+        android:padding="10dip"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/dialog_login_editTextUserPasswordInput"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:hint="@string/dialog_login_editTextPasswordHint"
+        android:inputType="textPassword"
+        android:padding="10dip"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/dialog_login_editTextViewLogoutText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:text="@string/dialog_login_textViewConfirm"
+        android:textAlignment="textEnd"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="gone" />
+
+</LinearLayout>
